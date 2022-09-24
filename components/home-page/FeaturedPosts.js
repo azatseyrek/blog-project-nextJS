@@ -1,8 +1,11 @@
+import classes from './featuredPosts.module.css';
+
 const FeaturedPosts = () => {
   return (
-    <div>
-      <h1>Featured Posts</h1>
-    </div>
+    <section className={classes.latest}>
+      <h2>Featured Posts</h2>
+      {/* <PostsGrid posts={DUMMY_POSTS} /> */}
+    </section>
   );
 };
 
